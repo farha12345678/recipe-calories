@@ -7,7 +7,7 @@ const Table = ({item , handleDelete , handleCooking}) => {
     return (
         <div>
             <div>
-                <tbody>
+                <tbody className='bg-gray-300'>
                 <th>{recipe_id}</th>
                 <td>{recipe_name}</td>
                 <td>{preparing_time}</td>

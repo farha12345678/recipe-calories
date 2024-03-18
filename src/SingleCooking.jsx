@@ -7,7 +7,7 @@ const SingleCooking =({cook}) => {
     return (
         <div>
             <div>
-                <tbody>
+                <tbody className='bg-gray-300'>
                 <th>{cook.recipe_id}</th>
                 <td>{cook.recipe_name}</td>
                 <td>{cook.preparing_time}</td>
